@@ -1,0 +1,63 @@
+{
+	// VSCode Custom Snippet Instructions:
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+
+	// Separators with Content
+	"*** Content Separator": {
+		"prefix": ["/star-content-separator"],    
+		"body": [
+			"// *** ${1/./*/g} ****************************************************************************************************",
+		],
+		"description": "A *** separator that has content with 100 stars"
+	},	
+
+	"=== Content Separator": {
+		"prefix": ["/equal-content-separator"],    
+		"body": ["// === ${1/./*/g} ====================================================================================================",],
+		"description": "A === separator that has content with 100 equal signs"
+	},	
+
+	"--- Content Separator": {
+		"prefix": ["/dash-content-separator"],    
+		"body": ["// --- ${1/./*/g} ----------------------------------------------------------------------------------------------------",],
+		"description": "A --- separator that has content with 100 dashes"
+	},	
+
+	"... Content Separator": {
+		"prefix": ["/dot-content-separator"],    
+		"body": ["// ... ${1/./*/g} ....................................................................................................",],
+		"description": "A ... separator that has content with 100 dashes"
+	},	
+
+
+	// Separators with No Content
+	"*** Separator": {
+		"prefix": ["/star-separator"],
+		"body": ["// ************************************************************************************************************************"],
+		"description": "A *** separator with 120 stars"
+	},
+
+	"=== Separator": {
+		"prefix": ["/equal-separator"],
+		"body": ["// ========================================================================================================================"],
+		"description": "A === separator with 120 equal signs"
+	}, 
+
+	"--- Separator": {
+		"prefix": ["/dash-separator"],
+		"body": ["// ------------------------------------------------------------------------------------------------------------------------"],
+		"description": "A --- separator with 120 dashes"
+	}, 
+
+	"... Separator": {
+		"prefix": ["/dot-separator"],
+		"body": ["// ........................................................................................................................"],
+		"description": "A ... separator with 120 dots"
+	}, 	
+
+}
